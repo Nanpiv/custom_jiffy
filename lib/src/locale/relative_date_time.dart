@@ -91,6 +91,56 @@ class EnRelativeDateTime extends RelativeDateTime {
   String wordSeparator() => ' ';
 }
 
+class KhRelativeDateTime extends RelativeDateTime {
+  @override
+  String prefixAgo() => '';
+
+  @override
+  String prefixFromNow() => 'ក្នុង';
+
+  @override
+  String suffixAgo() => 'មុន';
+
+  @override
+  String suffixFromNow() => '';
+
+  @override
+  String lessThanOneMinute(int seconds) => 'ប៉ុន្មានវិនាទី';
+
+  @override
+  String aboutAMinute(int minutes) => 'មួយនាទី';
+
+  @override
+  String minutes(int minutes) => '$minutes នាទី';
+
+  @override
+  String aboutAnHour(int minutes) => 'មួយម៉ោង';
+
+  @override
+  String hours(int hours) => '$hours ម៉ោង';
+
+  @override
+  String aDay(int hours) => 'មួយថ្ងៃ';
+
+  @override
+  String days(int days) => '$days ថ្ងៃ';
+
+  @override
+  String aboutAMonth(int days) => 'មួយខែ';
+
+  @override
+  String months(int months) => '$months ខែ';
+
+  @override
+  String aboutAYear(int year) => 'មួយឆ្នាំ';
+
+  @override
+  String years(int years) => '$years ឆ្នាំ';
+
+  @override
+  String wordSeparator() => ' ';
+}
+
 class EsRelativeDateTime extends RelativeDateTime {
   @override
   String prefixAgo() => 'hace';
