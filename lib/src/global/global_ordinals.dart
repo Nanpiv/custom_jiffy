@@ -3,6 +3,7 @@ import '../locale/ordinals.dart';
 
 Map<String, Ordinals> _builtInOrdinals = {
   'en': Ordinals(first: 'st', second: 'nd', third: 'rd', nth: 'th'),
+  'km': Ordinals(first: 'st', second: 'nd', third: 'rd', nth: 'th'),
   'es': Ordinals(first: 'º', second: 'º', third: 'º', nth: 'º'),
   'fr': Ordinals(first: 'er', second: '', third: '', nth: ''),
   'zh': Ordinals(first: '日', second: '日', third: '日', nth: '日'),

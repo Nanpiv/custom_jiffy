@@ -36,6 +36,7 @@ void main() {
       // Setup
       final relativeDateTimes = {
         'en': EnRelativeDateTime(),
+        'km': KhRelativeDateTime(),
         'es': EsRelativeDateTime(),
         'fr': FrRelativeDateTime(),
         'zh': ZhRelativeDateTime(),
